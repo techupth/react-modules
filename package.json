@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run --coverage"
+    "test": "vitest"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.5",

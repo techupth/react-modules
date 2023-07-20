@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
-import App from "./App";
-import DisplayJohn from "./components/DisplayJohn";
-import { JohnProfile } from "./components/DisplayJohn";
+import App from "../src/App";
+import DisplayJohn from "../src/components/DisplayJohn";
+import { JohnProfile } from "../src/components/DisplayJohn";
 
 describe("App", () => {
   it("ให้ Import ตัว Component Button  มา Render ลงไปบนหน้าเว็บ 3 ครั้ง (โดยกำหนดสีและขนาดของ Button แต่ละอันให้แตกต่างกันด้วย)", () => {
